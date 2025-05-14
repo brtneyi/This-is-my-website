@@ -2,33 +2,60 @@
 body {
     margin: 0%;
     display: flex;
+    background-color: #FEEEE9;
+    
 }
 
 #main-container {
     width: 1024px;
-    height: 150px ;
+    height: 4000px ;
     margin: 0% auto;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: hsl(34, 78%, 91%);
+    background-color: #FEEEE9;
+
+
 }
 
 #header {
-width: 100%;
-height: 150px;
-background-color: antiquewhite;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 #about-me-content {
-    -ms-flex-direction: row;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    background-color: #F5D3CF;
 }
 
-h1 {
-    color: burlywood;
+.nav_item {
+    margin: 0 20px;
+    text-decoration: none;
+    background-color: #F7D09C;
+    font-size: 20px;
+    height: 50px;
+    width: 215px;
+    align-self: center;
+    text-decoration: none;
     
+
 }
 
 
+
+/* end of main container */
