@@ -41,7 +41,15 @@ ul {
     flex-direction: row;
     align-items: center;
     background-color: #F5D3CF;
+    list-style-type: none;
+        border-radius: 50px;
+        border: 2px solid #C47429;
+        padding: 20px;
+        height: 20px;
+        width: 2295px;
 }
+
+
 
 .nav_item {
     margin: 0 20px;
@@ -52,10 +60,17 @@ ul {
     width: 215px;
     align-self: center;
     text-decoration: none;
+        border-radius: 50px;
+        border: 2px solid #C47429;
+        padding: 20px;
+        height: 20px;
+        width: 1500px;
+    
+    
     
 
 }
 
-
+/* if you want to make the width to fit the main container it's "width: 981px;"*
 
 /* end of main container */
